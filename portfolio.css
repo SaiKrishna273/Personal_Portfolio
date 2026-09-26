@@ -13,7 +13,6 @@ body{
     background-color:black;
     color:white;
     background-image:url("./background.jpg");
-    background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
@@ -66,7 +65,8 @@ body{
     align-items:center;
     min-height:600px;
     padding:50px;
-    background-color:rgba(0,0,0,0.45);
+    color:black;
+    background-image: url(https://images.pexels.com/photos/35962839/pexels-photo-35962839.jpeg?cs=srgb&dl=pexels-stephen-leonardi-587681991-35962839.jpg&fm=jpg);
 }
 
 .aboutleft{
@@ -357,6 +357,52 @@ footer{
 
 footer p{
     font-size:15px;
+}
+/* Social Icons */
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.social-links a {
+    display: inline-block;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+
+/* Copyright */
+.copyright {
+    border-top: 1px solid #555;
+    padding-top: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+/* Back To Top */
+.back-top {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.back-top:hover {
+    color: #00ff88;
 }
 
 /* MOBILE */
